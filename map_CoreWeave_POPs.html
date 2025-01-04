@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4eb380d54bf64f0db085b6c61138d615 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4eb380d54bf64f0db085b6c61138d615" ></div>
+        
+</body>
+<script>    
+    
+            var map_4eb380d54bf64f0db085b6c61138d615 = L.map(
+                "map_4eb380d54bf64f0db085b6c61138d615",
+                {
+                    center: [40.0, -99.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0b0f6f1c0ded4a3b9446de26b1debbdd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4eb380d54bf64f0db085b6c61138d615);
+        
+    
+            var feature_group_4ff7e66949c64bdfa8ffeb38521614bb = L.featureGroup(
+                {}
+            ).addTo(map_4eb380d54bf64f0db085b6c61138d615);
+        
+    
+            var marker_2ecbf91d2d844e5dbcf635cdef4ded60 = L.marker(
+                [39.016363, -77.459023],
+                {}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            var icon_251dd065d7bd4f3ca8e5852853ce69df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2ecbf91d2d844e5dbcf635cdef4ded60.setIcon(icon_251dd065d7bd4f3ca8e5852853ce69df);
+        
+    
+            marker_2ecbf91d2d844e5dbcf635cdef4ded60.bindTooltip(
+                `<div>
+                     CoreWeave POP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f074949a50814818854e1c6c6bff0607 = L.circleMarker(
+                [39.016363, -77.459023],
+                {"bubblingMouseEvents": true, "color": "cornflowerblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cornflowerblue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 47.3, "stroke": false, "weight": 3}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            circle_marker_f074949a50814818854e1c6c6bff0607.bindTooltip(
+                `<div>
+                     Equinix, Inc. in Ashburn, VA: 473 networks present
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f2c5983344a435d8ac42e87b4445bb7 = L.marker(
+                [37.241767, -121.782967],
+                {}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            var icon_82ab57abd4b14d67b698ef0d09f89f1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7f2c5983344a435d8ac42e87b4445bb7.setIcon(icon_82ab57abd4b14d67b698ef0d09f89f1c);
+        
+    
+            marker_7f2c5983344a435d8ac42e87b4445bb7.bindTooltip(
+                `<div>
+                     CoreWeave POP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a031310764054c6285f4b4035eb932e8 = L.circleMarker(
+                [37.241767, -121.782967],
+                {"bubblingMouseEvents": true, "color": "cornflowerblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cornflowerblue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 27.5, "stroke": false, "weight": 3}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            circle_marker_a031310764054c6285f4b4035eb932e8.bindTooltip(
+                `<div>
+                     Equinix, Inc. in San Jose, CA: 275 networks present
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d61171260714217b76f2c810a629f09 = L.marker(
+                [41.85365, -87.618342],
+                {}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            var icon_f4946185c8024cceb847c4847b32cd28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7d61171260714217b76f2c810a629f09.setIcon(icon_f4946185c8024cceb847c4847b32cd28);
+        
+    
+            marker_7d61171260714217b76f2c810a629f09.bindTooltip(
+                `<div>
+                     CoreWeave POP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ed802dab47f44f55b7aa6b9190a5b2c3 = L.circleMarker(
+                [41.85365, -87.618342],
+                {"bubblingMouseEvents": true, "color": "cornflowerblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cornflowerblue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 31.5, "stroke": false, "weight": 3}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            circle_marker_ed802dab47f44f55b7aa6b9190a5b2c3.bindTooltip(
+                `<div>
+                     Equinix, Inc. in Chicago, IL: 315 networks present
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84d3e2d81c2949eabc9566b7c051834c = L.marker(
+                [34.047942, -118.255564],
+                {}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            var icon_4b3ce56ea8704c79a3b94364662caa3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_84d3e2d81c2949eabc9566b7c051834c.setIcon(icon_4b3ce56ea8704c79a3b94364662caa3a);
+        
+    
+            marker_84d3e2d81c2949eabc9566b7c051834c.bindTooltip(
+                `<div>
+                     CoreWeave POP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4f6b07c8b9f8429d99ad9a4897fa147e = L.circleMarker(
+                [34.047942, -118.255564],
+                {"bubblingMouseEvents": true, "color": "cornflowerblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cornflowerblue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 32.6, "stroke": false, "weight": 3}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            circle_marker_4f6b07c8b9f8429d99ad9a4897fa147e.bindTooltip(
+                `<div>
+                     CoreSite in Los Angeles, CA: 326 networks present
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f81b36d9b591471db79a0246e7080490 = L.marker(
+                [40.778534, -74.072237],
+                {}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            var icon_b7b4ea9038614135a9531e818f72605d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f81b36d9b591471db79a0246e7080490.setIcon(icon_b7b4ea9038614135a9531e818f72605d);
+        
+    
+            marker_f81b36d9b591471db79a0246e7080490.bindTooltip(
+                `<div>
+                     CoreWeave POP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_43df61ac176247b0ba7d740435e85e0d = L.circleMarker(
+                [40.778534, -74.072237],
+                {"bubblingMouseEvents": true, "color": "cornflowerblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cornflowerblue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 12.0, "stroke": false, "weight": 3}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            circle_marker_43df61ac176247b0ba7d740435e85e0d.bindTooltip(
+                `<div>
+                     Equinix, Inc. in Secaucus, NJ: 120 networks present
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_211a9700dc1549f3bc31fba22f68f1e6 = L.marker(
+                [39.745636, -104.995636],
+                {}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            var icon_f2e3be545e734717b34412b434c61a7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_211a9700dc1549f3bc31fba22f68f1e6.setIcon(icon_f2e3be545e734717b34412b434c61a7a);
+        
+    
+            marker_211a9700dc1549f3bc31fba22f68f1e6.bindTooltip(
+                `<div>
+                     CoreWeave POP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_778b104ff89d48baba5fc0fe247d776b = L.circleMarker(
+                [39.745636, -104.995636],
+                {"bubblingMouseEvents": true, "color": "cornflowerblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cornflowerblue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10.1, "stroke": false, "weight": 3}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            circle_marker_778b104ff89d48baba5fc0fe247d776b.bindTooltip(
+                `<div>
+                     CoreSite in Denver, CO: 101 networks present
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dcf4755c9593460398673a003fdbbaf3 = L.marker(
+                [39.560317, -104.857528],
+                {}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            var icon_b2351961daff45119875bed77b6702d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dcf4755c9593460398673a003fdbbaf3.setIcon(icon_b2351961daff45119875bed77b6702d8);
+        
+    
+            marker_dcf4755c9593460398673a003fdbbaf3.bindTooltip(
+                `<div>
+                     CoreWeave POP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_92af85707a134a0dad15c2a6a10fc9e5 = L.circleMarker(
+                [39.560317, -104.857528],
+                {"bubblingMouseEvents": true, "color": "cornflowerblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cornflowerblue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 1.3, "stroke": false, "weight": 3}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            circle_marker_92af85707a134a0dad15c2a6a10fc9e5.bindTooltip(
+                `<div>
+                     Equinix, Inc. in Denver, CO: 13 networks present
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6c474e19e394bb7892069b75ca62c00 = L.marker(
+                [36.059914, -115.210194],
+                {}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            var icon_dc11cecbdc8441938a0ef80a13bce339 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b6c474e19e394bb7892069b75ca62c00.setIcon(icon_dc11cecbdc8441938a0ef80a13bce339);
+        
+    
+            marker_b6c474e19e394bb7892069b75ca62c00.bindTooltip(
+                `<div>
+                     CoreWeave POP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9223b7d111fd443ab759ce2086dac86a = L.circleMarker(
+                [36.059914, -115.210194],
+                {"bubblingMouseEvents": true, "color": "cornflowerblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cornflowerblue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.8, "stroke": false, "weight": 3}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            circle_marker_9223b7d111fd443ab759ce2086dac86a.bindTooltip(
+                `<div>
+                     Switch, Ltd. in Las Vegas, NV: 48 networks present
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f9c42b12f6d495fb8d82f722721b265 = L.marker(
+                [33.758567, -84.387874],
+                {}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            var icon_2896f082aa064266813556d0de519d45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2f9c42b12f6d495fb8d82f722721b265.setIcon(icon_2896f082aa064266813556d0de519d45);
+        
+    
+            marker_2f9c42b12f6d495fb8d82f722721b265.bindTooltip(
+                `<div>
+                     CoreWeave POP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_25945d7a564040f0b38cb7f039a0827d = L.circleMarker(
+                [33.758567, -84.387874],
+                {"bubblingMouseEvents": true, "color": "cornflowerblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cornflowerblue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 5.5, "stroke": false, "weight": 3}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            circle_marker_25945d7a564040f0b38cb7f039a0827d.bindTooltip(
+                `<div>
+                     Equinix, Inc. in Atlanta, GA: 55 networks present
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_401e0265b6364e93a774462400eec832 = L.marker(
+                [45.547403, -122.897906],
+                {}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            var icon_cc9e811c3dfa491ba9bf4d1c18da6b94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_401e0265b6364e93a774462400eec832.setIcon(icon_cc9e811c3dfa491ba9bf4d1c18da6b94);
+        
+    
+            marker_401e0265b6364e93a774462400eec832.bindTooltip(
+                `<div>
+                     CoreWeave POP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_30c572a4727042e9a045c6e6b2a28188 = L.circleMarker(
+                [45.547403, -122.897906],
+                {"bubblingMouseEvents": true, "color": "cornflowerblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cornflowerblue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 0.9, "stroke": false, "weight": 3}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            circle_marker_30c572a4727042e9a045c6e6b2a28188.bindTooltip(
+                `<div>
+                     Stack Infrastructure in Hillsboro, OR: 9 networks present
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c29f1efa296456094b9a067b6bb05bf = L.marker(
+                [45.547403, -122.897906],
+                {}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            var icon_0c767cba3b1848dfb57007fa3e282cc4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7c29f1efa296456094b9a067b6bb05bf.setIcon(icon_0c767cba3b1848dfb57007fa3e282cc4);
+        
+    
+            marker_7c29f1efa296456094b9a067b6bb05bf.bindTooltip(
+                `<div>
+                     CoreWeave POP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fd30f231c4644ce68d324dbf213a929d = L.circleMarker(
+                [45.547403, -122.897906],
+                {"bubblingMouseEvents": true, "color": "cornflowerblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cornflowerblue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 0.4, "stroke": false, "weight": 3}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            circle_marker_fd30f231c4644ce68d324dbf213a929d.bindTooltip(
+                `<div>
+                     Opus Interactive, Inc. in Hillsboro, OR: 4 networks present
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5d2a73f4b0b4b23ae9a3441f627b81b = L.marker(
+                [32.801347, -96.821074],
+                {}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            var icon_9749969158ad4960a27d55bb94d472ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d5d2a73f4b0b4b23ae9a3441f627b81b.setIcon(icon_9749969158ad4960a27d55bb94d472ec);
+        
+    
+            marker_d5d2a73f4b0b4b23ae9a3441f627b81b.bindTooltip(
+                `<div>
+                     CoreWeave POP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bcbc44714b894680b79dcc610a52e7f3 = L.circleMarker(
+                [32.801347, -96.821074],
+                {"bubblingMouseEvents": true, "color": "cornflowerblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cornflowerblue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 3.4, "stroke": false, "weight": 3}
+            ).addTo(feature_group_4ff7e66949c64bdfa8ffeb38521614bb);
+        
+    
+            circle_marker_bcbc44714b894680b79dcc610a52e7f3.bindTooltip(
+                `<div>
+                     Equinix, Inc. in Dallas, TX: 34 networks present
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
