@@ -1,0 +1,1878 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_623e651f641a4d1aa9db976ef31928cc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_623e651f641a4d1aa9db976ef31928cc" ></div>
+        
+</body>
+<script>    
+    
+            var map_623e651f641a4d1aa9db976ef31928cc = L.map(
+                "map_623e651f641a4d1aa9db976ef31928cc",
+                {
+                    center: [37.737101, -93.373434],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2ca9c90c26e04979b06204e81a6bb8b5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+            var circle_marker_d3dc61d8dffc4e0da4072ccff8b5a688 = L.circleMarker(
+                [39.067889, -87.513056],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 6.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_2239c45dc5794eefabcb1c4885895b41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09c8aba4216b44f3944969c1870e4c87 = $(`<div id="html_09c8aba4216b44f3944969c1870e4c87" style="width: 100.0%; height: 100.0%;">AboutBit Sullivan County facility</div>`)[0];
+            popup_2239c45dc5794eefabcb1c4885895b41.setContent(html_09c8aba4216b44f3944969c1870e4c87);
+        
+
+        circle_marker_d3dc61d8dffc4e0da4072ccff8b5a688.bindPopup(popup_2239c45dc5794eefabcb1c4885895b41)
+        ;
+
+        
+    
+    
+            circle_marker_d3dc61d8dffc4e0da4072ccff8b5a688.bindTooltip(
+                `<div>
+                     AboutBit Sullivan County facility: 115.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a78a0aa191b3437790bd4d7efbefcb5f = L.circleMarker(
+                [27.94719, -82.45559],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_a4b58fba01b4426f9579c4995fbe030e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03605157069f4daab5cdcebedf145145 = $(`<div id="html_03605157069f4daab5cdcebedf145145" style="width: 100.0%; height: 100.0%;">Acehost Hillsborough County facility 1</div>`)[0];
+            popup_a4b58fba01b4426f9579c4995fbe030e.setContent(html_03605157069f4daab5cdcebedf145145);
+        
+
+        circle_marker_a78a0aa191b3437790bd4d7efbefcb5f.bindPopup(popup_a4b58fba01b4426f9579c4995fbe030e)
+        ;
+
+        
+    
+    
+            circle_marker_a78a0aa191b3437790bd4d7efbefcb5f.bindTooltip(
+                `<div>
+                     Acehost Hillsborough County facility 1: 3.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5c21f0890a6440feac83ec1e3d3f06fa = L.circleMarker(
+                [27.94923, -82.45705],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_6320bdf54dbe4ab2bea1c21bca9c941d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6b9add44d854089bf82e0e548281eb3 = $(`<div id="html_d6b9add44d854089bf82e0e548281eb3" style="width: 100.0%; height: 100.0%;">Acehost Hillsborough County facility 2</div>`)[0];
+            popup_6320bdf54dbe4ab2bea1c21bca9c941d.setContent(html_d6b9add44d854089bf82e0e548281eb3);
+        
+
+        circle_marker_5c21f0890a6440feac83ec1e3d3f06fa.bindPopup(popup_6320bdf54dbe4ab2bea1c21bca9c941d)
+        ;
+
+        
+    
+    
+            circle_marker_5c21f0890a6440feac83ec1e3d3f06fa.bindTooltip(
+                `<div>
+                     Acehost Hillsborough County facility 2: 0.5 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_068aaf3c870041e48bdf37a50052521b = L.circleMarker(
+                [34.7867144, -102.0738511],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_d64f7e8f54ef490199a3060ddb79b76a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2dd03319fb6d41e5b1032fd225dd2864 = $(`<div id="html_2dd03319fb6d41e5b1032fd225dd2864" style="width: 100.0%; height: 100.0%;">Alborz Data Center</div>`)[0];
+            popup_d64f7e8f54ef490199a3060ddb79b76a.setContent(html_2dd03319fb6d41e5b1032fd225dd2864);
+        
+
+        circle_marker_068aaf3c870041e48bdf37a50052521b.bindPopup(popup_d64f7e8f54ef490199a3060ddb79b76a)
+        ;
+
+        
+    
+    
+            circle_marker_068aaf3c870041e48bdf37a50052521b.bindTooltip(
+                `<div>
+                     Alborz Data Center: 40.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_906ded74ef5149be95f0b1539d66dc80 = L.circleMarker(
+                [39.55286, -80.16545],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 5.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_cfbcc71626244eba91a7ff13042c303c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_142a1b94857244ccbcd3373bf5b20945 = $(`<div id="html_142a1b94857244ccbcd3373bf5b20945" style="width: 100.0%; height: 100.0%;">American Bituminous Power LP Marion County facility</div>`)[0];
+            popup_cfbcc71626244eba91a7ff13042c303c.setContent(html_142a1b94857244ccbcd3373bf5b20945);
+        
+
+        circle_marker_906ded74ef5149be95f0b1539d66dc80.bindPopup(popup_cfbcc71626244eba91a7ff13042c303c)
+        ;
+
+        
+    
+    
+            circle_marker_906ded74ef5149be95f0b1539d66dc80.bindTooltip(
+                `<div>
+                     American Bituminous Power LP Marion County facility: 95.7 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8de94e77b9854b10a5439d6fcd4ae906 = L.circleMarker(
+                [35.06579, -83.98566],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_4c7a49fa8d4041b29776f7c3fedf2fad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_046b6bedf2e5443181a4d98c47583ce2 = $(`<div id="html_046b6bedf2e5443181a4d98c47583ce2" style="width: 100.0%; height: 100.0%;">Ankr Mining Solutions Cherokee County facility 1</div>`)[0];
+            popup_4c7a49fa8d4041b29776f7c3fedf2fad.setContent(html_046b6bedf2e5443181a4d98c47583ce2);
+        
+
+        circle_marker_8de94e77b9854b10a5439d6fcd4ae906.bindPopup(popup_4c7a49fa8d4041b29776f7c3fedf2fad)
+        ;
+
+        
+    
+    
+            circle_marker_8de94e77b9854b10a5439d6fcd4ae906.bindTooltip(
+                `<div>
+                     Ankr Mining Solutions Cherokee County facility 1: 20.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_90a487ba8d08436c91fa7b296a73564a = L.circleMarker(
+                [36.9712105413195, -83.0230301722862],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": NaN, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_2403b9cb28464dc5847cb47e3d14a782 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_075d2a03543e48fd9af0e6897017a4e4 = $(`<div id="html_075d2a03543e48fd9af0e6897017a4e4" style="width: 100.0%; height: 100.0%;">ANKR/Exponential Digital Harlan County facility</div>`)[0];
+            popup_2403b9cb28464dc5847cb47e3d14a782.setContent(html_075d2a03543e48fd9af0e6897017a4e4);
+        
+
+        circle_marker_90a487ba8d08436c91fa7b296a73564a.bindPopup(popup_2403b9cb28464dc5847cb47e3d14a782)
+        ;
+
+        
+    
+    
+            circle_marker_90a487ba8d08436c91fa7b296a73564a.bindTooltip(
+                `<div>
+                     ANKR/Exponential Digital Harlan County facility: nan MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3a54a24d754f4ecc914279676634ddda = L.circleMarker(
+                [46.91032, -98.70854],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 5.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_f2c675ac9e7c4eec8eb4d0fb5986a976 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc799a0b119c4a29838246a7ad0d1e1a = $(`<div id="html_dc799a0b119c4a29838246a7ad0d1e1a" style="width: 100.0%; height: 100.0%;">Applied Blockchain Stutsman County facility</div>`)[0];
+            popup_f2c675ac9e7c4eec8eb4d0fb5986a976.setContent(html_dc799a0b119c4a29838246a7ad0d1e1a);
+        
+
+        circle_marker_3a54a24d754f4ecc914279676634ddda.bindPopup(popup_f2c675ac9e7c4eec8eb4d0fb5986a976)
+        ;
+
+        
+    
+    
+            circle_marker_3a54a24d754f4ecc914279676634ddda.bindTooltip(
+                `<div>
+                     Applied Blockchain Stutsman County facility: 100.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8a3309cfe0024a7a9275d27a63e0163e = L.circleMarker(
+                [38.5986, -107.973],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_57a6202ce5bf453c9d6a63d19baaf889 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef3f1e23a1064f9980bca30b80ea9dc9 = $(`<div id="html_ef3f1e23a1064f9980bca30b80ea9dc9" style="width: 100.0%; height: 100.0%;">Aspen Creek Digital Corporation Montrose County facility</div>`)[0];
+            popup_57a6202ce5bf453c9d6a63d19baaf889.setContent(html_ef3f1e23a1064f9980bca30b80ea9dc9);
+        
+
+        circle_marker_8a3309cfe0024a7a9275d27a63e0163e.bindPopup(popup_57a6202ce5bf453c9d6a63d19baaf889)
+        ;
+
+        
+    
+    
+            circle_marker_8a3309cfe0024a7a9275d27a63e0163e.bindTooltip(
+                `<div>
+                     Aspen Creek Digital Corporation Montrose County facility: 6.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d08eff65eb3645fa92fd0c0c60a3e770 = L.circleMarker(
+                [48.1454998, -103.774323],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 20.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_f45392e72fc3404f8f9e516242371092 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efa40cbead9d4c4395cb39c22cd2048e = $(`<div id="html_efa40cbead9d4c4395cb39c22cd2048e" style="width: 100.0%; height: 100.0%;">Atlas Power Williams County facility</div>`)[0];
+            popup_f45392e72fc3404f8f9e516242371092.setContent(html_efa40cbead9d4c4395cb39c22cd2048e);
+        
+
+        circle_marker_d08eff65eb3645fa92fd0c0c60a3e770.bindPopup(popup_f45392e72fc3404f8f9e516242371092)
+        ;
+
+        
+    
+    
+            circle_marker_d08eff65eb3645fa92fd0c0c60a3e770.bindTooltip(
+                `<div>
+                     Atlas Power Williams County facility: 700.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5341d157a2cf420888c1785336606240 = L.circleMarker(
+                [45.929424, -112.5206438],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_f3b7308098504be6a784403e67631e58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9aca6846a989467ea6429a8f4f9d9402 = $(`<div id="html_9aca6846a989467ea6429a8f4f9d9402" style="width: 100.0%; height: 100.0%;">Atlas Power: Butte</div>`)[0];
+            popup_f3b7308098504be6a784403e67631e58.setContent(html_9aca6846a989467ea6429a8f4f9d9402);
+        
+
+        circle_marker_5341d157a2cf420888c1785336606240.bindPopup(popup_f3b7308098504be6a784403e67631e58)
+        ;
+
+        
+    
+    
+            circle_marker_5341d157a2cf420888c1785336606240.bindTooltip(
+                `<div>
+                     Atlas Power: Butte: 75.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d03b39188ba94fa586733f043cccc1ad = L.circleMarker(
+                [30.56472, -97.06958],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 8.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_2ff86dce3d9a4d3bb883427e61f81363 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_391ff8efc485417d8953108633c687dd = $(`<div id="html_391ff8efc485417d8953108633c687dd" style="width: 100.0%; height: 100.0%;">BitDeer Douglas County facility</div>`)[0];
+            popup_2ff86dce3d9a4d3bb883427e61f81363.setContent(html_391ff8efc485417d8953108633c687dd);
+        
+
+        circle_marker_d03b39188ba94fa586733f043cccc1ad.bindPopup(popup_2ff86dce3d9a4d3bb883427e61f81363)
+        ;
+
+        
+    
+    
+            circle_marker_d03b39188ba94fa586733f043cccc1ad.bindTooltip(
+                `<div>
+                     BitDeer Douglas County facility: 170.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2ee2eec5b26b4d7fad579c5c0284272c = L.circleMarker(
+                [47.688265, -114.157108],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_ba84a8bf96a04d0185b0db1b08d14cad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6460adc331a4513a115578d4e0ada74 = $(`<div id="html_e6460adc331a4513a115578d4e0ada74" style="width: 100.0%; height: 100.0%;">Bitzero Lake County facility</div>`)[0];
+            popup_ba84a8bf96a04d0185b0db1b08d14cad.setContent(html_e6460adc331a4513a115578d4e0ada74);
+        
+
+        circle_marker_2ee2eec5b26b4d7fad579c5c0284272c.bindPopup(popup_ba84a8bf96a04d0185b0db1b08d14cad)
+        ;
+
+        
+    
+    
+            circle_marker_2ee2eec5b26b4d7fad579c5c0284272c.bindTooltip(
+                `<div>
+                     Bitzero Lake County facility: 50.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_eee3f04a55a547eba0f38c15841534f4 = L.circleMarker(
+                [31.10158, -83.4079],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 14.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_72b2304e3eab4f219eab462247292b7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6ecf61101654fcb8a687b293cad9ab3 = $(`<div id="html_e6ecf61101654fcb8a687b293cad9ab3" style="width: 100.0%; height: 100.0%;">Blockstream Cook County facility</div>`)[0];
+            popup_72b2304e3eab4f219eab462247292b7f.setContent(html_e6ecf61101654fcb8a687b293cad9ab3);
+        
+
+        circle_marker_eee3f04a55a547eba0f38c15841534f4.bindPopup(popup_72b2304e3eab4f219eab462247292b7f)
+        ;
+
+        
+    
+    
+            circle_marker_eee3f04a55a547eba0f38c15841534f4.bindTooltip(
+                `<div>
+                     Blockstream Cook County facility: 270.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_af921a3ca10d4a5e86d4f934ee08a95c = L.circleMarker(
+                [37.08831, -88.70305],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 5.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_ffc0385f73634a8e86676b0d37f98fca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef02482f4f2e4141b9ee64fa043e44a0 = $(`<div id="html_ef02482f4f2e4141b9ee64fa043e44a0" style="width: 100.0%; height: 100.0%;">Blockware McCracken County facility</div>`)[0];
+            popup_ffc0385f73634a8e86676b0d37f98fca.setContent(html_ef02482f4f2e4141b9ee64fa043e44a0);
+        
+
+        circle_marker_af921a3ca10d4a5e86d4f934ee08a95c.bindPopup(popup_ffc0385f73634a8e86676b0d37f98fca)
+        ;
+
+        
+    
+    
+            circle_marker_af921a3ca10d4a5e86d4f934ee08a95c.bindTooltip(
+                `<div>
+                     Blockware McCracken County facility: 100.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0ee1a0e6f53a46f08f9878c390257fc6 = L.circleMarker(
+                [37.667552, -82.345043],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_91e80702164b44a1a3d4d59a8640ef30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2e286c125cc438984a197b176882690 = $(`<div id="html_a2e286c125cc438984a197b176882690" style="width: 100.0%; height: 100.0%;">Blockware Solutions Pike County facility</div>`)[0];
+            popup_91e80702164b44a1a3d4d59a8640ef30.setContent(html_a2e286c125cc438984a197b176882690);
+        
+
+        circle_marker_0ee1a0e6f53a46f08f9878c390257fc6.bindPopup(popup_91e80702164b44a1a3d4d59a8640ef30)
+        ;
+
+        
+    
+    
+            circle_marker_0ee1a0e6f53a46f08f9878c390257fc6.bindTooltip(
+                `<div>
+                     Blockware Solutions Pike County facility: 30.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7276a50ea2184dc48050619b649747eb = L.circleMarker(
+                [37.05108, -88.39441],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 6.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_9baf9503576e4ca98bcb484030d2fef8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8dbf64157a645e3a14ef3a0a1294f68 = $(`<div id="html_c8dbf64157a645e3a14ef3a0a1294f68" style="width: 100.0%; height: 100.0%;">Calvert Data Center</div>`)[0];
+            popup_9baf9503576e4ca98bcb484030d2fef8.setContent(html_c8dbf64157a645e3a14ef3a0a1294f68);
+        
+
+        circle_marker_7276a50ea2184dc48050619b649747eb.bindPopup(popup_9baf9503576e4ca98bcb484030d2fef8)
+        ;
+
+        
+    
+    
+            circle_marker_7276a50ea2184dc48050619b649747eb.bindTooltip(
+                `<div>
+                     Calvert Data Center: 125.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0fa3f743d4c64654b5d588e936e2a9df = L.circleMarker(
+                [33.61456, -84.46716],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_1512197ebe65430696b33c9200325202 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24ed19ab401e45cabbcee809796b751d = $(`<div id="html_24ed19ab401e45cabbcee809796b751d" style="width: 100.0%; height: 100.0%;">Cleanspark Fulton County facility</div>`)[0];
+            popup_1512197ebe65430696b33c9200325202.setContent(html_24ed19ab401e45cabbcee809796b751d);
+        
+
+        circle_marker_0fa3f743d4c64654b5d588e936e2a9df.bindPopup(popup_1512197ebe65430696b33c9200325202)
+        ;
+
+        
+    
+    
+            circle_marker_0fa3f743d4c64654b5d588e936e2a9df.bindTooltip(
+                `<div>
+                     Cleanspark Fulton County facility: 47.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4fbb4a04e2174ceb8464dc655e4a69fd = L.circleMarker(
+                [33.95022, -84.22825],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_8e986eca0faf4e93bdf775e110aff818 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0081b3c38c8742a48fe3ef276114fb96 = $(`<div id="html_0081b3c38c8742a48fe3ef276114fb96" style="width: 100.0%; height: 100.0%;">Cleanspark Gwinnett County facility</div>`)[0];
+            popup_8e986eca0faf4e93bdf775e110aff818.setContent(html_0081b3c38c8742a48fe3ef276114fb96);
+        
+
+        circle_marker_4fbb4a04e2174ceb8464dc655e4a69fd.bindPopup(popup_8e986eca0faf4e93bdf775e110aff818)
+        ;
+
+        
+    
+    
+            circle_marker_4fbb4a04e2174ceb8464dc655e4a69fd.bindTooltip(
+                `<div>
+                     Cleanspark Gwinnett County facility: 20.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3c69fda7e49b4aebb79eb9dfb38fed94 = L.circleMarker(
+                [44.680538, -73.451475],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_f9df12cb64254ebc81cd7b5064a7d987 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_835eee646b034cc4b450f3c9aba1822d = $(`<div id="html_835eee646b034cc4b450f3c9aba1822d" style="width: 100.0%; height: 100.0%;">Coinmint Clinton county facility</div>`)[0];
+            popup_f9df12cb64254ebc81cd7b5064a7d987.setContent(html_835eee646b034cc4b450f3c9aba1822d);
+        
+
+        circle_marker_3c69fda7e49b4aebb79eb9dfb38fed94.bindPopup(popup_f9df12cb64254ebc81cd7b5064a7d987)
+        ;
+
+        
+    
+    
+            circle_marker_3c69fda7e49b4aebb79eb9dfb38fed94.bindTooltip(
+                `<div>
+                     Coinmint Clinton county facility: 10.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1fa7935f20b94c6d809bed692f805167 = L.circleMarker(
+                [38.83347, -104.82205],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_94b378676fb2455ca6632d2964b5e1b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e45cc8c5e8394f459ca5b8a441910400 = $(`<div id="html_e45cc8c5e8394f459ca5b8a441910400" style="width: 100.0%; height: 100.0%;">Compass Mining El Paso County facility</div>`)[0];
+            popup_94b378676fb2455ca6632d2964b5e1b6.setContent(html_e45cc8c5e8394f459ca5b8a441910400);
+        
+
+        circle_marker_1fa7935f20b94c6d809bed692f805167.bindPopup(popup_94b378676fb2455ca6632d2964b5e1b6)
+        ;
+
+        
+    
+    
+            circle_marker_1fa7935f20b94c6d809bed692f805167.bindTooltip(
+                `<div>
+                     Compass Mining El Paso County facility: 20.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2ae3ef17ed884afd86d45a28eade63a3 = L.circleMarker(
+                [40.7261106356957, -99.0387176880666],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 5.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_88f2475a866d43f1bfddc77bf43a4ce9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac75e68f4db645e1969a13e8f9c144a4 = $(`<div id="html_ac75e68f4db645e1969a13e8f9c144a4" style="width: 100.0%; height: 100.0%;">Compute North Buffalo County facility</div>`)[0];
+            popup_88f2475a866d43f1bfddc77bf43a4ce9.setContent(html_ac75e68f4db645e1969a13e8f9c144a4);
+        
+
+        circle_marker_2ae3ef17ed884afd86d45a28eade63a3.bindPopup(popup_88f2475a866d43f1bfddc77bf43a4ce9)
+        ;
+
+        
+    
+    
+            circle_marker_2ae3ef17ed884afd86d45a28eade63a3.bindTooltip(
+                `<div>
+                     Compute North Buffalo County facility: 100.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_98ebd3e8559140159a3fd9cdc0ec65ab = L.circleMarker(
+                [32.3357, -97.7335],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 15.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_d3f312ead4df4fe5921eb4c00b9cf608 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d92ac9871614607a54df40a6773a768 = $(`<div id="html_9d92ac9871614607a54df40a6773a768" style="width: 100.0%; height: 100.0%;">Compute North Hood County facility</div>`)[0];
+            popup_d3f312ead4df4fe5921eb4c00b9cf608.setContent(html_9d92ac9871614607a54df40a6773a768);
+        
+
+        circle_marker_98ebd3e8559140159a3fd9cdc0ec65ab.bindPopup(popup_d3f312ead4df4fe5921eb4c00b9cf608)
+        ;
+
+        
+    
+    
+            circle_marker_98ebd3e8559140159a3fd9cdc0ec65ab.bindTooltip(
+                `<div>
+                     Compute North Hood County facility: 300.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c9cdc557459d413dba16b06d884aa4a8 = L.circleMarker(
+                [42.53308, -96.49101],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_4cc15388ad0442f2834d8b3135b3433c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8621d5c996948d9ace5695544955ace = $(`<div id="html_f8621d5c996948d9ace5695544955ace" style="width: 100.0%; height: 100.0%;">Compute North Union County facility</div>`)[0];
+            popup_4cc15388ad0442f2834d8b3135b3433c.setContent(html_f8621d5c996948d9ace5695544955ace);
+        
+
+        circle_marker_c9cdc557459d413dba16b06d884aa4a8.bindPopup(popup_4cc15388ad0442f2834d8b3135b3433c)
+        ;
+
+        
+    
+    
+            circle_marker_c9cdc557459d413dba16b06d884aa4a8.bindTooltip(
+                `<div>
+                     Compute North Union County facility: 7.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c9f272ab02be46a3a6aa4d661ce26312 = L.circleMarker(
+                [31.2547925289633, -102.244162834726],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 14.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_c7274a3d7bce42e0838097073178b0ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fed86ab6f1b94997a580133c03b7cbaa = $(`<div id="html_fed86ab6f1b94997a580133c03b7cbaa" style="width: 100.0%; height: 100.0%;">Compute North Upton County facility</div>`)[0];
+            popup_c7274a3d7bce42e0838097073178b0ec.setContent(html_fed86ab6f1b94997a580133c03b7cbaa);
+        
+
+        circle_marker_c9f272ab02be46a3a6aa4d661ce26312.bindPopup(popup_c7274a3d7bce42e0838097073178b0ec)
+        ;
+
+        
+    
+    
+            circle_marker_c9f272ab02be46a3a6aa4d661ce26312.bindTooltip(
+                `<div>
+                     Compute North Upton County facility: 280.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7e8be75587824563908d045b998c0af2 = L.circleMarker(
+                [35.1870942, -83.9179055],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 5.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_9eab6d383bcc4c70a30398fc38dbd286 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c86df6141634f94bea8730795f3e27b = $(`<div id="html_1c86df6141634f94bea8730795f3e27b" style="width: 100.0%; height: 100.0%;">Core Scientific Cherokee County facility</div>`)[0];
+            popup_9eab6d383bcc4c70a30398fc38dbd286.setContent(html_1c86df6141634f94bea8730795f3e27b);
+        
+
+        circle_marker_7e8be75587824563908d045b998c0af2.bindPopup(popup_9eab6d383bcc4c70a30398fc38dbd286)
+        ;
+
+        
+    
+    
+            circle_marker_7e8be75587824563908d045b998c0af2.bindTooltip(
+                `<div>
+                     Core Scientific Cherokee County facility: 100.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_be10bffed190431cb7907442ae7e1e4f = L.circleMarker(
+                [47.91094, -97.11246],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 5.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_91b0113741b447a1892cfbf0629aa818 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb99016e73a94580a030b486243e29e0 = $(`<div id="html_cb99016e73a94580a030b486243e29e0" style="width: 100.0%; height: 100.0%;">Core Scientific Grand Forks County facility</div>`)[0];
+            popup_91b0113741b447a1892cfbf0629aa818.setContent(html_cb99016e73a94580a030b486243e29e0);
+        
+
+        circle_marker_be10bffed190431cb7907442ae7e1e4f.bindPopup(popup_91b0113741b447a1892cfbf0629aa818)
+        ;
+
+        
+    
+    
+            circle_marker_be10bffed190431cb7907442ae7e1e4f.bindTooltip(
+                `<div>
+                     Core Scientific Grand Forks County facility: 100.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f92db2976fff4f58b5327a8a317c380d = L.circleMarker(
+                [35.7852582, -95.3017996],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 20.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_5624f58fdc1a47d596f990851242a63b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01c470d0d1f34844aa76eafd41a68ed1 = $(`<div id="html_01c470d0d1f34844aa76eafd41a68ed1" style="width: 100.0%; height: 100.0%;">Core Scientific Muskogee County facility</div>`)[0];
+            popup_5624f58fdc1a47d596f990851242a63b.setContent(html_01c470d0d1f34844aa76eafd41a68ed1);
+        
+
+        circle_marker_f92db2976fff4f58b5327a8a317c380d.bindPopup(popup_5624f58fdc1a47d596f990851242a63b)
+        ;
+
+        
+    
+    
+            circle_marker_f92db2976fff4f58b5327a8a317c380d.bindTooltip(
+                `<div>
+                     Core Scientific Muskogee County facility: 500.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4de77443ab3341b6b5c1f318ec260fca = L.circleMarker(
+                [34.71316, -84.95143],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 8.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_695f3bcf326d43a08931573809cf19e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2ac3ffcc5934f09b0129c2226b8af2d = $(`<div id="html_e2ac3ffcc5934f09b0129c2226b8af2d" style="width: 100.0%; height: 100.0%;">Core Scientific Whitfield County facility</div>`)[0];
+            popup_695f3bcf326d43a08931573809cf19e9.setContent(html_e2ac3ffcc5934f09b0129c2226b8af2d);
+        
+
+        circle_marker_4de77443ab3341b6b5c1f318ec260fca.bindPopup(popup_695f3bcf326d43a08931573809cf19e9)
+        ;
+
+        
+    
+    
+            circle_marker_4de77443ab3341b6b5c1f318ec260fca.bindTooltip(
+                `<div>
+                     Core Scientific Whitfield County facility: 170.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6aebfdb1df7e4ce39da9a46fe7960364 = L.circleMarker(
+                [42.92012, -78.81941],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_cecfa616a20047409b4daefccfcb6186 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f05de9daa15474cb73f6f997e14389d = $(`<div id="html_4f05de9daa15474cb73f6f997e14389d" style="width: 100.0%; height: 100.0%;">Digihost American Axle Erie County facility</div>`)[0];
+            popup_cecfa616a20047409b4daefccfcb6186.setContent(html_4f05de9daa15474cb73f6f997e14389d);
+        
+
+        circle_marker_6aebfdb1df7e4ce39da9a46fe7960364.bindPopup(popup_cecfa616a20047409b4daefccfcb6186)
+        ;
+
+        
+    
+    
+            circle_marker_6aebfdb1df7e4ce39da9a46fe7960364.bindTooltip(
+                `<div>
+                     Digihost American Axle Erie County facility: 42.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a8fa29f432fd42a594e74a4f52ceca6a = L.circleMarker(
+                [43.04811, -78.85307],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_46e61d2b0887459292200e3590d13b23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6689dfc0ef3e4a448e740a526a7ae856 = $(`<div id="html_6689dfc0ef3e4a448e740a526a7ae856" style="width: 100.0%; height: 100.0%;">Digihost Fortistar Niagara County facility</div>`)[0];
+            popup_46e61d2b0887459292200e3590d13b23.setContent(html_6689dfc0ef3e4a448e740a526a7ae856);
+        
+
+        circle_marker_a8fa29f432fd42a594e74a4f52ceca6a.bindPopup(popup_46e61d2b0887459292200e3590d13b23)
+        ;
+
+        
+    
+    
+            circle_marker_a8fa29f432fd42a594e74a4f52ceca6a.bindTooltip(
+                `<div>
+                     Digihost Fortistar Niagara County facility: 60.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9504e8586af646fe9e3c459134ab7cbf = L.circleMarker(
+                [37.4701047681155, -82.2734920024104],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_9f4ca82357884b79be9241055473d661 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37b694086d4f41b4874b767254b10772 = $(`<div id="html_37b694086d4f41b4874b767254b10772" style="width: 100.0%; height: 100.0%;">Discover AI Kimper facility</div>`)[0];
+            popup_9f4ca82357884b79be9241055473d661.setContent(html_37b694086d4f41b4874b767254b10772);
+        
+
+        circle_marker_9504e8586af646fe9e3c459134ab7cbf.bindPopup(popup_9f4ca82357884b79be9241055473d661)
+        ;
+
+        
+    
+    
+            circle_marker_9504e8586af646fe9e3c459134ab7cbf.bindTooltip(
+                `<div>
+                     Discover AI Kimper facility: 15.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_017267cd50b34129a5a509655684e77b = L.circleMarker(
+                [30.67168, -88.114439],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": NaN, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_ba2cb71949c34d5a84685a87df02cd19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_366dfa63df044949ab1aa56f991eaa6d = $(`<div id="html_366dfa63df044949ab1aa56f991eaa6d" style="width: 100.0%; height: 100.0%;">Distributed Ledger Mobile County facility</div>`)[0];
+            popup_ba2cb71949c34d5a84685a87df02cd19.setContent(html_366dfa63df044949ab1aa56f991eaa6d);
+        
+
+        circle_marker_017267cd50b34129a5a509655684e77b.bindPopup(popup_ba2cb71949c34d5a84685a87df02cd19)
+        ;
+
+        
+    
+    
+            circle_marker_017267cd50b34129a5a509655684e77b.bindTooltip(
+                `<div>
+                     Distributed Ledger Mobile County facility: nan MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_db1ae37ba71e49bfa004b59de16b6a4a = L.circleMarker(
+                [34.1337999, -109.9739787],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": NaN, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_044bff54fc314b4d9268fcba94f15531 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e29be5352374253ad1cccde41316e27 = $(`<div id="html_2e29be5352374253ad1cccde41316e27" style="width: 100.0%; height: 100.0%;">Dynamic Power Sources Navajo County facility</div>`)[0];
+            popup_044bff54fc314b4d9268fcba94f15531.setContent(html_2e29be5352374253ad1cccde41316e27);
+        
+
+        circle_marker_db1ae37ba71e49bfa004b59de16b6a4a.bindPopup(popup_044bff54fc314b4d9268fcba94f15531)
+        ;
+
+        
+    
+    
+            circle_marker_db1ae37ba71e49bfa004b59de16b6a4a.bindTooltip(
+                `<div>
+                     Dynamic Power Sources Navajo County facility: nan MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b2f7c6b4db9b4bd1ab4f14c71184fe35 = L.circleMarker(
+                [36.398512, -83.693254],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_ffcd4610480a40eba196ad54268a48a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3c99d7a38884d13b1785cc9983cb24b = $(`<div id="html_f3c99d7a38884d13b1785cc9983cb24b" style="width: 100.0%; height: 100.0%;">Exponential Digital/Primeblock Claiborne County facility</div>`)[0];
+            popup_ffcd4610480a40eba196ad54268a48a6.setContent(html_f3c99d7a38884d13b1785cc9983cb24b);
+        
+
+        circle_marker_b2f7c6b4db9b4bd1ab4f14c71184fe35.bindPopup(popup_ffcd4610480a40eba196ad54268a48a6)
+        ;
+
+        
+    
+    
+            circle_marker_b2f7c6b4db9b4bd1ab4f14c71184fe35.bindTooltip(
+                `<div>
+                     Exponential Digital/Primeblock Claiborne County facility: 20.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a3c54ff975ec49eaaedd19f3dc3df249 = L.circleMarker(
+                [32.8862734890882, -85.1610075723944],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_a9785545c79841e7bc15811f94e7d7c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42c174e68c9a450c85cb785df7c6fa0f = $(`<div id="html_42c174e68c9a450c85cb785df7c6fa0f" style="width: 100.0%; height: 100.0%;">EZ Blockchain Troup and Harris Counties facility</div>`)[0];
+            popup_a9785545c79841e7bc15811f94e7d7c0.setContent(html_42c174e68c9a450c85cb785df7c6fa0f);
+        
+
+        circle_marker_a3c54ff975ec49eaaedd19f3dc3df249.bindPopup(popup_a9785545c79841e7bc15811f94e7d7c0)
+        ;
+
+        
+    
+    
+            circle_marker_a3c54ff975ec49eaaedd19f3dc3df249.bindTooltip(
+                `<div>
+                     EZ Blockchain Troup and Harris Counties facility: 16.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ffb8afd7458441b995c184eb5a429be7 = L.circleMarker(
+                [30.904473, -102.9177867],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_b52b2009baf044a89b2b639b07763c1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b657913cc734a318c2d707cba59e51c = $(`<div id="html_0b657913cc734a318c2d707cba59e51c" style="width: 100.0%; height: 100.0%;">Fort Stockton Clean Campus</div>`)[0];
+            popup_b52b2009baf044a89b2b639b07763c1c.setContent(html_0b657913cc734a318c2d707cba59e51c);
+        
+
+        circle_marker_ffb8afd7458441b995c184eb5a429be7.bindPopup(popup_b52b2009baf044a89b2b639b07763c1c)
+        ;
+
+        
+    
+    
+            circle_marker_ffb8afd7458441b995c184eb5a429be7.bindTooltip(
+                `<div>
+                     Fort Stockton Clean Campus: 25.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_114f4e6c9b6f462eb9c42aa728b8c487 = L.circleMarker(
+                [42.9463754976045, -112.828976557895],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_762fa8f0bd834531aa90c9303f527a26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fc3aa57c5a443cfb5013db3f5540bb0 = $(`<div id="html_3fc3aa57c5a443cfb5013db3f5540bb0" style="width: 100.0%; height: 100.0%;">GeoBitmine Bingham County facility</div>`)[0];
+            popup_762fa8f0bd834531aa90c9303f527a26.setContent(html_3fc3aa57c5a443cfb5013db3f5540bb0);
+        
+
+        circle_marker_114f4e6c9b6f462eb9c42aa728b8c487.bindPopup(popup_762fa8f0bd834531aa90c9303f527a26)
+        ;
+
+        
+    
+    
+            circle_marker_114f4e6c9b6f462eb9c42aa728b8c487.bindTooltip(
+                `<div>
+                     GeoBitmine Bingham County facility: 6.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6deb6585987249d3b8477b312c71401e = L.circleMarker(
+                [42.67687, -76.94491],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_7b9ede5aaa9949a8bbcbfac4c593723c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5a12bada92e45fdb37ab2e55d021aac = $(`<div id="html_b5a12bada92e45fdb37ab2e55d021aac" style="width: 100.0%; height: 100.0%;">Greenidge Generation Yates County facility</div>`)[0];
+            popup_7b9ede5aaa9949a8bbcbfac4c593723c.setContent(html_b5a12bada92e45fdb37ab2e55d021aac);
+        
+
+        circle_marker_6deb6585987249d3b8477b312c71401e.bindPopup(popup_7b9ede5aaa9949a8bbcbfac4c593723c)
+        ;
+
+        
+    
+    
+            circle_marker_6deb6585987249d3b8477b312c71401e.bindTooltip(
+                `<div>
+                     Greenidge Generation Yates County facility: 55.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_112efa91affa4503be97a81c1cd809f5 = L.circleMarker(
+                [33.7814083, -100.8790507],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_de3ac00623244e2596d1088b0c36e643 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9ef761361e04998b56ff87bd37b299e = $(`<div id="html_e9ef761361e04998b56ff87bd37b299e" style="width: 100.0%; height: 100.0%;">Helios facility</div>`)[0];
+            popup_de3ac00623244e2596d1088b0c36e643.setContent(html_e9ef761361e04998b56ff87bd37b299e);
+        
+
+        circle_marker_112efa91affa4503be97a81c1cd809f5.bindPopup(popup_de3ac00623244e2596d1088b0c36e643)
+        ;
+
+        
+    
+    
+            circle_marker_112efa91affa4503be97a81c1cd809f5.bindTooltip(
+                `<div>
+                     Helios facility: 200.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8815c86abddf4b32a6c0dc7717a765ec = L.circleMarker(
+                [32.8139248340303, -83.5559301722522],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_0499f26092054950aa7b973c47ef2b3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab3c803e23fe426ab8728336f259ee86 = $(`<div id="html_ab3c803e23fe426ab8728336f259ee86" style="width: 100.0%; height: 100.0%;">Horizon Mining Macon-Bibb County facility</div>`)[0];
+            popup_0499f26092054950aa7b973c47ef2b3c.setContent(html_ab3c803e23fe426ab8728336f259ee86);
+        
+
+        circle_marker_8815c86abddf4b32a6c0dc7717a765ec.bindPopup(popup_0499f26092054950aa7b973c47ef2b3c)
+        ;
+
+        
+    
+    
+            circle_marker_8815c86abddf4b32a6c0dc7717a765ec.bindTooltip(
+                `<div>
+                     Horizon Mining Macon-Bibb County facility: 31.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0a8d2d7ae85a47a5b3baa378cd6779dc = L.circleMarker(
+                [43.35973, -78.60527],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 20.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_93640f3704234689aa56b4ff9ab1c2cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cbe3be39ae641cc9e1a061b2812abb9 = $(`<div id="html_2cbe3be39ae641cc9e1a061b2812abb9" style="width: 100.0%; height: 100.0%;">Lake Mariner facility</div>`)[0];
+            popup_93640f3704234689aa56b4ff9ab1c2cc.setContent(html_2cbe3be39ae641cc9e1a061b2812abb9);
+        
+
+        circle_marker_0a8d2d7ae85a47a5b3baa378cd6779dc.bindPopup(popup_93640f3704234689aa56b4ff9ab1c2cc)
+        ;
+
+        
+    
+    
+            circle_marker_0a8d2d7ae85a47a5b3baa378cd6779dc.bindTooltip(
+                `<div>
+                     Lake Mariner facility: 500.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ee7c5991e0e64e9292bbc339aeb988fe = L.circleMarker(
+                [36.782186, -108.766639],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_767d6f9d6050408e8fe261d7e10926a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_386832b47fea4995915d63756b6ab0eb = $(`<div id="html_386832b47fea4995915d63756b6ab0eb" style="width: 100.0%; height: 100.0%;">Luxxfolio San Juan County facility</div>`)[0];
+            popup_767d6f9d6050408e8fe261d7e10926a4.setContent(html_386832b47fea4995915d63756b6ab0eb);
+        
+
+        circle_marker_ee7c5991e0e64e9292bbc339aeb988fe.bindPopup(popup_767d6f9d6050408e8fe261d7e10926a4)
+        ;
+
+        
+    
+    
+            circle_marker_ee7c5991e0e64e9292bbc339aeb988fe.bindTooltip(
+                `<div>
+                     Luxxfolio San Juan County facility: 15.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3fe892428f2f4a96bf6edfea4937e46a = L.circleMarker(
+                [39.60995, -79.97501],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": NaN, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_b5a2de4b0f5349e792ada8f56077585c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1946f7054d6346b0ba448ab6bf324a4a = $(`<div id="html_1946f7054d6346b0ba448ab6bf324a4a" style="width: 100.0%; height: 100.0%;">Marion Energy Monongalia County facility</div>`)[0];
+            popup_b5a2de4b0f5349e792ada8f56077585c.setContent(html_1946f7054d6346b0ba448ab6bf324a4a);
+        
+
+        circle_marker_3fe892428f2f4a96bf6edfea4937e46a.bindPopup(popup_b5a2de4b0f5349e792ada8f56077585c)
+        ;
+
+        
+    
+    
+            circle_marker_3fe892428f2f4a96bf6edfea4937e46a.bindTooltip(
+                `<div>
+                     Marion Energy Monongalia County facility: nan MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e84eb5d78323452896901a50b019b104 = L.circleMarker(
+                [44.98388, -74.75109],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 20.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_e931e97ba8be421091a03ea849db4792 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b32387a9790d4b619ce9dd16039d5b91 = $(`<div id="html_b32387a9790d4b619ce9dd16039d5b91" style="width: 100.0%; height: 100.0%;">Massena Complex</div>`)[0];
+            popup_e931e97ba8be421091a03ea849db4792.setContent(html_b32387a9790d4b619ce9dd16039d5b91);
+        
+
+        circle_marker_e84eb5d78323452896901a50b019b104.bindPopup(popup_e931e97ba8be421091a03ea849db4792)
+        ;
+
+        
+    
+    
+            circle_marker_e84eb5d78323452896901a50b019b104.bindTooltip(
+                `<div>
+                     Massena Complex: 435.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_66aec6715b7c481fb6f52a7ab3bc2147 = L.circleMarker(
+                [40.63073, -80.45154],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 5.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_75c5e617b8374a93aa41b6e64715fd49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22d5bc77e67d49648f04a38e274ae6fc = $(`<div id="html_22d5bc77e67d49648f04a38e274ae6fc" style="width: 100.0%; height: 100.0%;">Mawson Infrastructure Group Beaver County facility</div>`)[0];
+            popup_75c5e617b8374a93aa41b6e64715fd49.setContent(html_22d5bc77e67d49648f04a38e274ae6fc);
+        
+
+        circle_marker_66aec6715b7c481fb6f52a7ab3bc2147.bindPopup(popup_75c5e617b8374a93aa41b6e64715fd49)
+        ;
+
+        
+    
+    
+            circle_marker_66aec6715b7c481fb6f52a7ab3bc2147.bindTooltip(
+                `<div>
+                     Mawson Infrastructure Group Beaver County facility: 100.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c6692859e42141f78eaf9b7e17bba1ae = L.circleMarker(
+                [32.98099, -82.81024],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 12.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_ac37fc8586ab4daf88749afe4fc51874 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfb2311a33534c6d91c50defa5c6474c = $(`<div id="html_cfb2311a33534c6d91c50defa5c6474c" style="width: 100.0%; height: 100.0%;">Mawson Infrastructure Group Washington County facility</div>`)[0];
+            popup_ac37fc8586ab4daf88749afe4fc51874.setContent(html_cfb2311a33534c6d91c50defa5c6474c);
+        
+
+        circle_marker_c6692859e42141f78eaf9b7e17bba1ae.bindPopup(popup_ac37fc8586ab4daf88749afe4fc51874)
+        ;
+
+        
+    
+    
+            circle_marker_c6692859e42141f78eaf9b7e17bba1ae.bindTooltip(
+                `<div>
+                     Mawson Infrastructure Group Washington County facility: 230.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8679f0f9513e41c7b1bcc1c9599c152f = L.circleMarker(
+                [42.877765, -73.677439],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_843328272b344519a8d5717788ed7e04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4dfd5d8d9184891b95ef7ade2da09a1 = $(`<div id="html_b4dfd5d8d9184891b95ef7ade2da09a1" style="width: 100.0%; height: 100.0%;">Mechanicville Hydroelectric Plant</div>`)[0];
+            popup_843328272b344519a8d5717788ed7e04.setContent(html_b4dfd5d8d9184891b95ef7ade2da09a1);
+        
+
+        circle_marker_8679f0f9513e41c7b1bcc1c9599c152f.bindPopup(popup_843328272b344519a8d5717788ed7e04)
+        ;
+
+        
+    
+    
+            circle_marker_8679f0f9513e41c7b1bcc1c9599c152f.bindTooltip(
+                `<div>
+                     Mechanicville Hydroelectric Plant: 4.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d40a7b90e7f8473596d3958659e394b7 = L.circleMarker(
+                [41.9932276, -86.0986035],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_3bd053def5834dc28d8f31f6c7917031 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d03895d75beb45d385f9a42eaea6be09 = $(`<div id="html_d03895d75beb45d385f9a42eaea6be09" style="width: 100.0%; height: 100.0%;">Michigan Data Center</div>`)[0];
+            popup_3bd053def5834dc28d8f31f6c7917031.setContent(html_d03895d75beb45d385f9a42eaea6be09);
+        
+
+        circle_marker_d40a7b90e7f8473596d3958659e394b7.bindPopup(popup_3bd053def5834dc28d8f31f6c7917031)
+        ;
+
+        
+    
+    
+            circle_marker_d40a7b90e7f8473596d3958659e394b7.bindTooltip(
+                `<div>
+                     Michigan Data Center: 29.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_107da0595ddf459983eb2305c4d480e4 = L.circleMarker(
+                [42.36803, -92.90666],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_e11de64e5c5e443183dec0fac15cc5cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19a5aae9fd3d4a50bfb89199f036aec0 = $(`<div id="html_19a5aae9fd3d4a50bfb89199f036aec0" style="width: 100.0%; height: 100.0%;">MiningStore Grundy County facility</div>`)[0];
+            popup_e11de64e5c5e443183dec0fac15cc5cb.setContent(html_19a5aae9fd3d4a50bfb89199f036aec0);
+        
+
+        circle_marker_107da0595ddf459983eb2305c4d480e4.bindPopup(popup_e11de64e5c5e443183dec0fac15cc5cb)
+        ;
+
+        
+    
+    
+            circle_marker_107da0595ddf459983eb2305c4d480e4.bindTooltip(
+                `<div>
+                     MiningStore Grundy County facility: 6.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c51508b7d338482f8d45b91b1f0cdaa5 = L.circleMarker(
+                [41.0919, -76.1462],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 15.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_2149b362b8244d8ca0ad2c02d6bfccfe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64aea19754874339a6769314ed52e12e = $(`<div id="html_64aea19754874339a6769314ed52e12e" style="width: 100.0%; height: 100.0%;">Nautilus Cryptomine</div>`)[0];
+            popup_2149b362b8244d8ca0ad2c02d6bfccfe.setContent(html_64aea19754874339a6769314ed52e12e);
+        
+
+        circle_marker_c51508b7d338482f8d45b91b1f0cdaa5.bindPopup(popup_2149b362b8244d8ca0ad2c02d6bfccfe)
+        ;
+
+        
+    
+    
+            circle_marker_c51508b7d338482f8d45b91b1f0cdaa5.bindTooltip(
+                `<div>
+                     Nautilus Cryptomine: 300.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2466596a2aec48629b80a7cadb7b1ea5 = L.circleMarker(
+                [43.0828642, -79.0034955],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_5d1791e7194e4920b639fdee455787db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ab5a99ce5d8411989ed7f0c914ed04c = $(`<div id="html_3ab5a99ce5d8411989ed7f0c914ed04c" style="width: 100.0%; height: 100.0%;">North East Data LLC Niagara facility</div>`)[0];
+            popup_5d1791e7194e4920b639fdee455787db.setContent(html_3ab5a99ce5d8411989ed7f0c914ed04c);
+        
+
+        circle_marker_2466596a2aec48629b80a7cadb7b1ea5.bindPopup(popup_5d1791e7194e4920b639fdee455787db)
+        ;
+
+        
+    
+    
+            circle_marker_2466596a2aec48629b80a7cadb7b1ea5.bindTooltip(
+                `<div>
+                     North East Data LLC Niagara facility: 50.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6947dc504fab48ffa37e220825a12cf0 = L.circleMarker(
+                [41.50762, -78.72167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": NaN, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_6ac13f324c25471e8cb2998bde41cb98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e39355d6011c42e0aa1207f7dd93dee5 = $(`<div id="html_e39355d6011c42e0aa1207f7dd93dee5" style="width: 100.0%; height: 100.0%;">Pin Oak Energy Elk County facility</div>`)[0];
+            popup_6ac13f324c25471e8cb2998bde41cb98.setContent(html_e39355d6011c42e0aa1207f7dd93dee5);
+        
+
+        circle_marker_6947dc504fab48ffa37e220825a12cf0.bindPopup(popup_6ac13f324c25471e8cb2998bde41cb98)
+        ;
+
+        
+    
+    
+            circle_marker_6947dc504fab48ffa37e220825a12cf0.bindTooltip(
+                `<div>
+                     Pin Oak Energy Elk County facility: nan MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0198ad20ebfb42cbad29ef2f01ae09dc = L.circleMarker(
+                [32.502213, -99.788717],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_585fa4038322416299811bebb0d5824d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de8696e9bbd947f1b38f4e43b18a6844 = $(`<div id="html_de8696e9bbd947f1b38f4e43b18a6844" style="width: 100.0%; height: 100.0%;">Project Artemis</div>`)[0];
+            popup_585fa4038322416299811bebb0d5824d.setContent(html_de8696e9bbd947f1b38f4e43b18a6844);
+        
+
+        circle_marker_0198ad20ebfb42cbad29ef2f01ae09dc.bindPopup(popup_585fa4038322416299811bebb0d5824d)
+        ;
+
+        
+    
+    
+            circle_marker_0198ad20ebfb42cbad29ef2f01ae09dc.bindTooltip(
+                `<div>
+                     Project Artemis: 200.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0712beb995b545e5a8903632121a67d3 = L.circleMarker(
+                [36.06528, -78.4868],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_5c15901a36574832ae50ff76ea3072ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73f24b1d45ba4dcaa2001594ca43e766 = $(`<div id="html_73f24b1d45ba4dcaa2001594ca43e766" style="width: 100.0%; height: 100.0%;">PRTI Franklin County facility</div>`)[0];
+            popup_5c15901a36574832ae50ff76ea3072ad.setContent(html_73f24b1d45ba4dcaa2001594ca43e766);
+        
+
+        circle_marker_0712beb995b545e5a8903632121a67d3.bindPopup(popup_5c15901a36574832ae50ff76ea3072ad)
+        ;
+
+        
+    
+    
+            circle_marker_0712beb995b545e5a8903632121a67d3.bindTooltip(
+                `<div>
+                     PRTI Franklin County facility: 0.5 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dbca2692b59442e295a6492dc4e38053 = L.circleMarker(
+                [31.53467, -103.1267],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 15.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_29107f008c73404997a27f5716411b27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a10e17a5cea54d74972c6563a6770449 = $(`<div id="html_a10e17a5cea54d74972c6563a6770449" style="width: 100.0%; height: 100.0%;">Pyote facility</div>`)[0];
+            popup_29107f008c73404997a27f5716411b27.setContent(html_a10e17a5cea54d74972c6563a6770449);
+        
+
+        circle_marker_dbca2692b59442e295a6492dc4e38053.bindPopup(popup_29107f008c73404997a27f5716411b27)
+        ;
+
+        
+    
+    
+            circle_marker_dbca2692b59442e295a6492dc4e38053.bindTooltip(
+                `<div>
+                     Pyote facility: 300.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6dced15a020f4252831c7e2aaf27e3ac = L.circleMarker(
+                [36.17923, -82.5873609366964],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_b69572c5e66147f6a46a03be142cdb06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a59541d35c4f44a8b5e821d91300bc74 = $(`<div id="html_a59541d35c4f44a8b5e821d91300bc74" style="width: 100.0%; height: 100.0%;">Red Dog Technologies Washington County facility</div>`)[0];
+            popup_b69572c5e66147f6a46a03be142cdb06.setContent(html_a59541d35c4f44a8b5e821d91300bc74);
+        
+
+        circle_marker_6dced15a020f4252831c7e2aaf27e3ac.bindPopup(popup_b69572c5e66147f6a46a03be142cdb06)
+        ;
+
+        
+    
+    
+            circle_marker_6dced15a020f4252831c7e2aaf27e3ac.bindTooltip(
+                `<div>
+                     Red Dog Technologies Washington County facility: 12.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_581a541a1f824541b755ec09a5476a55 = L.circleMarker(
+                [25.454595415406, -80.4132089883509],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_6e0419ee07ff4c83be6acf3242107b00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1af260385a60462ba7cc933f915b99c2 = $(`<div id="html_1af260385a60462ba7cc933f915b99c2" style="width: 100.0%; height: 100.0%;">Redivider Miami-Dade County facility</div>`)[0];
+            popup_6e0419ee07ff4c83be6acf3242107b00.setContent(html_1af260385a60462ba7cc933f915b99c2);
+        
+
+        circle_marker_581a541a1f824541b755ec09a5476a55.bindPopup(popup_6e0419ee07ff4c83be6acf3242107b00)
+        ;
+
+        
+    
+    
+            circle_marker_581a541a1f824541b755ec09a5476a55.bindTooltip(
+                `<div>
+                     Redivider Miami-Dade County facility: 10.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4d8855990cfe41138506499b95de85a6 = L.circleMarker(
+                [40.63384, -80.41953],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 15.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_74fcb084831941c68536e88765174e18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e861cb5c5c804d05a1d41a2177402fc0 = $(`<div id="html_e861cb5c5c804d05a1d41a2177402fc0" style="width: 100.0%; height: 100.0%;">Standard Power Beaver County facility</div>`)[0];
+            popup_74fcb084831941c68536e88765174e18.setContent(html_e861cb5c5c804d05a1d41a2177402fc0);
+        
+
+        circle_marker_4d8855990cfe41138506499b95de85a6.bindPopup(popup_74fcb084831941c68536e88765174e18)
+        ;
+
+        
+    
+    
+            circle_marker_4d8855990cfe41138506499b95de85a6.bindTooltip(
+                `<div>
+                     Standard Power Beaver County facility: 300.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_de48241d27b649ea909585c97259252c = L.circleMarker(
+                [40.8556, -75.8781],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_2d032a170bfd4054afce3df5c6ac12a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cad9262f131049d18f9257cda679b8b7 = $(`<div id="html_cad9262f131049d18f9257cda679b8b7" style="width: 100.0%; height: 100.0%;">Stronghold Panther Creek Plant</div>`)[0];
+            popup_2d032a170bfd4054afce3df5c6ac12a4.setContent(html_cad9262f131049d18f9257cda679b8b7);
+        
+
+        circle_marker_de48241d27b649ea909585c97259252c.bindPopup(popup_2d032a170bfd4054afce3df5c6ac12a4)
+        ;
+
+        
+    
+    
+            circle_marker_de48241d27b649ea909585c97259252c.bindTooltip(
+                `<div>
+                     Stronghold Panther Creek Plant: 80.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d7cbcc7dc47b481181753ddb711abffc = L.circleMarker(
+                [41.26942, -79.81057],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_4e0b3ee9ebec4b6c86dbc9b44f240c42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d311fcc3d9214660a1995565573d55f7 = $(`<div id="html_d311fcc3d9214660a1995565573d55f7" style="width: 100.0%; height: 100.0%;">Stronghold Scrubgrass Plant</div>`)[0];
+            popup_4e0b3ee9ebec4b6c86dbc9b44f240c42.setContent(html_d311fcc3d9214660a1995565573d55f7);
+        
+
+        circle_marker_d7cbcc7dc47b481181753ddb711abffc.bindPopup(popup_4e0b3ee9ebec4b6c86dbc9b44f240c42)
+        ;
+
+        
+    
+    
+            circle_marker_d7cbcc7dc47b481181753ddb711abffc.bindTooltip(
+                `<div>
+                     Stronghold Scrubgrass Plant: 85.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_327ac7ef5c894f978e503f58cb8c7d9c = L.circleMarker(
+                [42.602307, -76.63478],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 8.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_c2817c327c214bb38149a9def0dafbf6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e78c160e00114d1c9a873aad52453ed5 = $(`<div id="html_e78c160e00114d1c9a873aad52453ed5" style="width: 100.0%; height: 100.0%;">Terawulf Cayuga Lake facility</div>`)[0];
+            popup_c2817c327c214bb38149a9def0dafbf6.setContent(html_e78c160e00114d1c9a873aad52453ed5);
+        
+
+        circle_marker_327ac7ef5c894f978e503f58cb8c7d9c.bindPopup(popup_c2817c327c214bb38149a9def0dafbf6)
+        ;
+
+        
+    
+    
+            circle_marker_327ac7ef5c894f978e503f58cb8c7d9c.bindTooltip(
+                `<div>
+                     Terawulf Cayuga Lake facility: 150.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f0a0bff2414846aca16af04391c02eaf = L.circleMarker(
+                [43.0825497, -79.0313079],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": NaN, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_f8657fca5fee4093a2e413d08ffc6cba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f06fa81be86442abab49c81b73f01a7 = $(`<div id="html_2f06fa81be86442abab49c81b73f01a7" style="width: 100.0%; height: 100.0%;">US Bitcoin Corporation Niagara County facility</div>`)[0];
+            popup_f8657fca5fee4093a2e413d08ffc6cba.setContent(html_2f06fa81be86442abab49c81b73f01a7);
+        
+
+        circle_marker_f0a0bff2414846aca16af04391c02eaf.bindPopup(popup_f8657fca5fee4093a2e413d08ffc6cba)
+        ;
+
+        
+    
+    
+            circle_marker_f0a0bff2414846aca16af04391c02eaf.bindTooltip(
+                `<div>
+                     US Bitcoin Corporation Niagara County facility: nan MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ea24b4816ba14d61a5c52ceae538d24c = L.circleMarker(
+                [42.14031, -76.2669],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_1510fa7c588645a795ef5f0a3620597e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b9fc1ab69bf43aaa2739d4313042e5b = $(`<div id="html_7b9fc1ab69bf43aaa2739d4313042e5b" style="width: 100.0%; height: 100.0%;">Viridium Tioga County facility</div>`)[0];
+            popup_1510fa7c588645a795ef5f0a3620597e.setContent(html_7b9fc1ab69bf43aaa2739d4313042e5b);
+        
+
+        circle_marker_ea24b4816ba14d61a5c52ceae538d24c.bindPopup(popup_1510fa7c588645a795ef5f0a3620597e)
+        ;
+
+        
+    
+    
+            circle_marker_ea24b4816ba14d61a5c52ceae538d24c.bindTooltip(
+                `<div>
+                     Viridium Tioga County facility: 10.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0afd59e3708346b5b5904717195d883c = L.circleMarker(
+                [31.36385, -109.60259],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": NaN, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_52ef918b3c384cbcabb6f410464922b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_656e527070a744b9824a589a62e63d20 = $(`<div id="html_656e527070a744b9824a589a62e63d20" style="width: 100.0%; height: 100.0%;">West Oak Avenue project</div>`)[0];
+            popup_52ef918b3c384cbcabb6f410464922b8.setContent(html_656e527070a744b9824a589a62e63d20);
+        
+
+        circle_marker_0afd59e3708346b5b5904717195d883c.bindPopup(popup_52ef918b3c384cbcabb6f410464922b8)
+        ;
+
+        
+    
+    
+            circle_marker_0afd59e3708346b5b5904717195d883c.bindTooltip(
+                `<div>
+                     West Oak Avenue project: nan MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_46494c64abc8443abd4f0f4a203c16c6 = L.circleMarker(
+                [30.56359, -97.08498],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": NaN, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_220f7e17a25546e7b07fec9575264bb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_050e42d90db34dbd8826b0abca50c468 = $(`<div id="html_050e42d90db34dbd8826b0abca50c468" style="width: 100.0%; height: 100.0%;">Whinstone Bitcoin mining facility</div>`)[0];
+            popup_220f7e17a25546e7b07fec9575264bb4.setContent(html_050e42d90db34dbd8826b0abca50c468);
+        
+
+        circle_marker_46494c64abc8443abd4f0f4a203c16c6.bindPopup(popup_220f7e17a25546e7b07fec9575264bb4)
+        ;
+
+        
+    
+    
+            circle_marker_46494c64abc8443abd4f0f4a203c16c6.bindTooltip(
+                `<div>
+                     Whinstone Bitcoin mining facility: nan MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3a82a280b0454556b373f832924508d2 = L.circleMarker(
+                [44.680431, -73.47042],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4.0, "stroke": false, "weight": 3}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+    
+        var popup_07e2c5f964b348fd99d3ca9759657d88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_393850a6c075498b95ecb88d9c0a9c46 = $(`<div id="html_393850a6c075498b95ecb88d9c0a9c46" style="width: 100.0%; height: 100.0%;">Zafra Clinton County facility</div>`)[0];
+            popup_07e2c5f964b348fd99d3ca9759657d88.setContent(html_393850a6c075498b95ecb88d9c0a9c46);
+        
+
+        circle_marker_3a82a280b0454556b373f832924508d2.bindPopup(popup_07e2c5f964b348fd99d3ca9759657d88)
+        ;
+
+        
+    
+    
+            circle_marker_3a82a280b0454556b373f832924508d2.bindTooltip(
+                `<div>
+                     Zafra Clinton County facility: 8.0 MW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var macro_element_b26640c037194a5bbf17c3508520641c = L.tileLayer.wms(
+                "https://dcm.itu.int/geoserver/dcm_prod/wms?",
+                {"attribution": "ITU", "format": "image/png", "layers": "dcm_prod:dcm_infrastructure", "styles": "", "transparent": true, "version": "1.1.1"}
+            ).addTo(map_623e651f641a4d1aa9db976ef31928cc);
+        
+</script>
